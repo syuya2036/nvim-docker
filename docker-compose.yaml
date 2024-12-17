@@ -1,0 +1,10 @@
+version: "3.8"
+
+services:
+  dotfiles-container:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dotfiles-container
+    tty: true
+    stdin_open: true
