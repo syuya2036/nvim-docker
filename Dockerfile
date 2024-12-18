@@ -13,7 +13,7 @@ RUN apt-get update && apt-get install -y \
     # g++ \
     && apt-get clean
 
-WORKDIR /root
+WORKDIR /root/work
 
 RUN curl -LO https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.tar.gz \
     && tar xzf nvim-linux64.tar.gz \
