@@ -6,11 +6,11 @@ RUN apt-get update && apt-get install -y \
     zsh \
     unzip \
     wget \
-    build-essential \
-    software-properties-common \
-    clangd \
-    clang \
-    g++ \
+    # build-essential \
+    # software-properties-common \
+    # clangd \
+    # clang \
+    # g++ \
     && apt-get clean
 
 WORKDIR /root
